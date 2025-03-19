@@ -1,0 +1,8 @@
+name = "chat-app"
+main = "src/worker.js"
+compatibility_date = "2023-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "chat_app_db"
+database_id = "chat-app-db"
