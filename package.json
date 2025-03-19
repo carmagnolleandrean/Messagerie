@@ -1,9 +1,27 @@
 {
+  "name": "chat-app",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest"
+  },
+  "dependencies": {
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "bcryptjs": "^2.4.3",
+    "crypto-js": "^4.1.1",
+    "lru-cache": "^7.14.1",
+    "socket.io": "^4.5.1",
+    "next-auth": "^4.10.3",
+    "prisma": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-next": "^13.4.4",
+    "vitest": "^0.34.1"
   }
 }
